@@ -1,0 +1,165 @@
+*{
+    margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    align-items: center;
+}
+.header-icons{
+    display: flex;
+}
+.myntra_logo{
+    margin-left: 50px;
+    height: 40px;
+    width: 60px;
+    cursor: pointer;
+}
+.align-center{
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+.link{
+    text-decoration: none;
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: black;
+    margin-right: 20px;
+}
+a{
+    text-decoration: none;
+    font-size: 0.75rem;
+    font-weight: 400;
+    color: black;
+    margin-top: 5px;
+}
+a:hover{
+    text-decoration: underline;
+}
+.header-bag{
+    margin-right: 20px;
+    display: flex;
+}
+.header-input{
+    border: 1px solid rgb(179, 178, 178);
+    padding-left: 10px;
+    border-radius: 2px;
+}
+.header-input-text{
+    border: none;
+    height: 34px;
+    width: 400px;
+    outline: none;
+}
+.header-image{
+    margin-bottom: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.img{
+    width: 100%;
+    height: 380px;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.footer-links{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+.bag-main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+}
+.myntra-products-images{
+    margin: 20px;
+}
+.product{
+    border-radius: 2px;
+    padding-top: 10px;
+    cursor: pointer;
+}
+.product-image{
+    width: 250px;
+    height: 340px;
+}
+.discount-details{
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+.discount{
+    color: rgb(242, 41, 41);
+    font-size: 0.85rem;
+}
+.myntra-products{
+    margin: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.rating{
+    font-size: 0.7rem;
+    font-weight: 550;
+    margin-bottom: 15px;
+}
+.cutting-text{
+    text-decoration: line-through;
+    font-size: 0.78rem;
+}
+.price{
+    font-size: 0.9rem;
+    font-weight: 550;
+}
+.product-name{
+    font-weight: 550;
+    font-size: 0.95rem;
+}
+.product-discription{
+    font-size: 0.85rem;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.btn-bag{
+    width: 250px;
+    height: 30px;
+    background-color: rgb(58, 171, 58);
+    border-radius: 8px;
+    border: none;
+    font-weight: 600;
+    margin-top: 3px;
+    cursor: pointer;
+}
+h5{
+    margin-top: 10px;
+}
+p{
+    font-size: 0.7rem;
+}
+.last{
+    margin-top: 20px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.no_of_items{
+    background-color: rgba(252, 7, 7, 0.633);
+    border-radius: 100%;
+    width: 16px;
+    height: 16px;
+    text-align: center;
+    font-size: 0.7rem;
+}
+.bag-page{
+    display: flex;
+    margin: 10px;
+    margin-bottom: 40px;
+}
